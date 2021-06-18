@@ -1,0 +1,83 @@
+h1{color: rgb(20,30,105);
+    background-color: rgb(255, 0, 0);
+    margin-left:30px;
+}
+   
+
+*{
+    background-color:#ffffff
+}
+
+.menu{
+    background-color: rgb(255, 0, 0);
+    margin-right:30px;
+}
+.menu *{
+    margin:20px;
+    margin-top:20px;
+}
+.header *{
+
+}
+.header{
+ background-color:rgb(255, 0, 0);
+ display:flex;
+ justify-content:space-between;
+
+}
+
+.myGames{
+    background-color:#4a5f9d;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.footer{
+
+    background-color:#1a2b5f;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+p{
+    color:#3e5f6a
+}
+h2{
+    color:#1a1a1a
+}
+
+a{
+    background-color: rgb(255, 0, 0);
+} 
+
+a:link{
+    color:white;
+}
+a:visited{
+    color:white;
+}
+
+.item{
+    position:relative
+}
+
+.item p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+
+.item:hover p{
+  opacity:1;
+}
+
+.item:hover img{
+   opacity:0.3;
+}
